@@ -21,6 +21,8 @@ public class ApRestContriller {
 	@RequestMapping(value="/menu",method=RequestMethod.POST)
 	public String getData(@RequestBody Student student){
 		System.out.println(student.toString());
-		return "SUCCESS";
+		
+		
+		return "GOT OBJECT";
 	}
 }
